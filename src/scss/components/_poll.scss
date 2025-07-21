@@ -1,0 +1,40 @@
+@use '../abstracts/variables';
+@use '../abstracts/mixins';
+
+.poll {
+  &__title {
+    text-align: center;
+    font-weight: bold;
+    @include mixins.box-shadow;
+  }
+
+  &__form {
+    max-width: 700px;
+    margin: 0 auto;
+    @include mixins.flex-center;
+    padding: variables.$padding-large;
+  }
+
+  &__option {    
+    display: flex;
+    padding: 1rem;
+    background-color: variables.$secondary-color;
+    border-radius: variables.$border-radius-base;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: variables.$quinary-color;
+    }
+  }
+
+  &__submit:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;    
+  }
+
+  &__message {
+    text-align: center;
+    font-weight: bold;  
+  }
+}
+

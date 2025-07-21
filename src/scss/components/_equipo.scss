@@ -1,0 +1,37 @@
+@use '../abstracts/variables';
+@use '../abstracts/mixins';
+
+.ideal-team {
+  padding: 2rem;
+  background-color: variables.$primary-color;
+  border-radius: 1rem;
+
+
+  &__title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.75rem;
+    color: variables.$secondary-color;
+  }
+
+  &__form {
+    .form-label {
+      font-weight: 500;
+      color: variables.$secondary-color;
+      text-align: center;
+    }
+
+    .form-select {
+      border-radius: variables.$border-radius-large;
+      border-color: variables.$fourth-color;
+    }
+  }
+
+  &__submit {
+    padding: 0.75rem 2rem;
+    font-weight: bold;
+    border-radius: variables.$border-radius-large;
+    background-color: variables.$quinary-color;
+    color: variables.$tertiary-color;
+  }
+}

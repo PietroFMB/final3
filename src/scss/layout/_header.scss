@@ -1,0 +1,26 @@
+@use '../abstracts/variables';
+@use '../abstracts/mixins';
+
+.site-navbar {
+  background-color: variables.$primary-color; 
+
+  &__brand {
+    color: variables.$tertiary-color;
+
+    &:hover {
+      color: variables.$secondary-color;
+    }
+  }
+
+
+  &__menu {
+    .nav-link {
+      color: variables.$tertiary-color;
+
+      &:hover {
+        color: variables.$quinary-color;
+      }
+    }
+  }
+}
+

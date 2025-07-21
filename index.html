@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Futbolopía</title>
+    <link rel="stylesheet" href="../../dist/css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+
+<body class="bg-black text-white">
+    <header class="site-header">
+        <!-- Navbar -->
+        <nav class="navbar site-navbar  navbar-expand-lg">
+            <div class="container">
+                <a class="site-navbar__brand navbar-brand d-flex align-items-center" href="./index.html">
+                    <img src="../img/descarga.png" alt="Pelota" class="site-navbar__icon me-2 img-fluid rounded-circle"
+                        width="30" height="30">
+                    <span class="site-navbar__brand">Futbolopía</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse site-navbar__menu" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link  " href="./html/Clubes.html">Clubes</a></li>
+                        <li class="nav-item"><a class="nav-link " href="./html/Jugadores.html">Jugadores</a></li>
+                        <li class="nav-item"><a class="nav-link " href="./html/tecnicos.html">Técnicos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main class="container mt-0">
+        <!-- carrusel -->
+        <section>
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../img/alemania.jpg" class="d-block w-100" alt="Imagen 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/francia.jpg" class="d-block w-100" alt="Imagen 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/inglaterra.jpg" class="d-block w-100" alt="Imagen 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/españa.jpg" class="d-block w-100" alt="Imagen 4">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/italia.jpg" class="d-block w-100" alt="Imagen 5">
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- cards -->
+        <section class="my-4">
+            <h1 class="text-center">Nominados al Ballon de Oro</h1>
+            <p class="text-center">Aquí puedes encontrar las nominaciones al Ballon de Oro</p>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card news-card h-100">
+                        <img src="./img/dembele.jpg" class="card-img-top news-card__image" height="220px"
+                            alt="jugador de futbol">
+                        <div class="card-body news-card__body">
+                            <h5 class="card-title news-card__title">Ousmane Dembélé</h5>
+                            <p class="card-text news-card__text">Club: Paris Saint-Germain</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card news-card h-100">
+                        <img src="./img/vinicius.jpg" class="card-img-top news-card__image" height="220px"
+                            alt="jugador de futbol">
+                        <div class="card-body news-card__body">
+                            <h5 class="card-title news-card__title">Vinícius Júnior</h5>
+                            <p class="card-text news-card__text">Club: Real Madrid</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card news-card h-100">
+                        <img src="./img/yamal.jpg" class="card-img-top news-card__image" height="220px"
+                            alt="jugador de futbol">
+                        <div class="card-body news-card__body">
+                            <h5 class="card-title news-card__title">Lamine Yamal</h5>
+                            <p class="card-text news-card__text">Club: FC Barcelona</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card news-card h-100">
+                        <img src="./img/lautaro.jpg" class="card-img-top news-card__image" height="220px"
+                            alt="jugador de futbol">
+                        <div class="card-body news-card__body">
+                            <h5 class="card-title news-card__title">Lautaro Martínez</h5>
+                            <p class="card-text news-card__text">Club: Inter de Milán</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card news-card h-100">
+                        <img src="./img/mbappe.jpg" class="card-img-top news-card__image" height="220px"
+                            alt="jugador de futbol">
+                        <div class="card-body news-card__body">
+                            <h5 class="card-title news-card__title">Kylian Mbappé</h5>
+                            <p class="card-text news-card__text">Club: Real Madrid</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card news-card h-100">
+                        <img src="./img/palmer.jpg" class="card-img-top news-card__image" height="220px"
+                            alt="jugador de futbol">
+                        <div class="card-body news-card__body">
+                            <h5 class="card-title news-card__title">Cole Palmer</h5>
+                            <p class="card-text news-card__text">Club: Chelsea FC</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="my-4">
+            <h2 class="text-center">Ganadores de años anteriores</h2>
+            <p class="text-center">Últimos tres ganadores del Ballon de Oro</p>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card news-card h-100">
+                        <img src="./img/rodri.jpg" class="card-img-top news-card__image" height="220px" alt="Rodri">
+                        <div class="card-body news-card__body text-center">
+                            <h3 class="card-title news-card__title">2024</h3>
+                            <p class="card-text news-card__text">Rodrigo Hernández</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card news-card h-100">
+                        <img src="./img/messi.jpg" class="card-img-top news-card__image" height="220px" alt="Messi">
+                        <div class="card-body news-card__body text-center">
+                            <h3 class="card-title news-card__title">2023</h3>
+                            <p class="card-text news-card__text">Lionel Messi</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card news-card h-100">
+                        <img src="./img/benzema.jpg" class="card-img-top news-card__image" height="220px" alt="Benzema">
+                        <div class="card-body news-card__body text-center">
+                            <h3 class="card-title news-card__title">2022</h3>
+                            <p class="card-text news-card__text">Karim Benzema</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="poll container my-5 ">
+            <h2 class="poll__title mb-4">¿Quién debería ganar el Balón de Oro?</h2>
+            <form class="poll__form">
+                <div class="row gy-3">
+                    <div class="col-md-4"> 
+                        <div class="form-check poll__option">
+                            <input class="form-check-input" type="radio" name="ballon-dor" id="player1" value="Mbappé"
+                                required>
+                            <label class="form-check-label" for="player1">Kylian Mbappé</label>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-check poll__option">
+                            <input class="form-check-input" type="radio" name="ballon-dor" id="player2" value="Messi">
+                            <label class="form-check-label" for="player2">Ousmane Dembélé</label>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-check poll__option">
+                            <input class="form-check-input" type="radio" name="ballon-dor" id="player3" value="Haaland">
+                            <label class="form-check-label" for="player3">Cole Palmer</label>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-check poll__option">
+                            <input class="form-check-input" type="radio" name="ballon-dor" id="player4"
+                                value="Vinicius">
+                            <label class="form-check-label" for="player4">Vinícius Jr</label>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-check poll__option">
+                            <input class="form-check-input" type="radio" name="ballon-dor" id="player5"
+                                value="Bellingham">
+                            <label class="form-check-label" for="player5">Lamine Yamal</label>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-check poll__option">
+                            <input class="form-check-input" type="radio" name="ballon-dor" id="player6"
+                                value="Griezmann">
+                            <label class="form-check-label" for="player6">Lautaro Martínez</label>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary mt-4 poll__submit">Enviar</button>
+                <div class="poll__message alert alert-success mt-3 d-none">Respuesta enviada</div>
+            </form>
+        </section>
+
+    </main>
+    <!-- Footer -->
+    <footer class="site-footer py-4">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+            <div class="site-footer__copy mb-2 mb-md-0">
+                © 2025 Futbolopía. Todos los derechos reservados.
+            </div>
+            <div class="site-footer__social">
+                <a href="#" class=" me-3" aria-label="Facebook">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="#" class=" me-3" aria-label="Twitter">
+                    <i class="bi bi-twitter-x"></i>
+                </a>
+                <a href="#" class="me-3" aria-label="Instagram">
+                    <i class="bi bi-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const form = document.querySelector(".poll__form");
+    const message = document.querySelector(".poll__message");
+    const submitBtn = form.querySelector(".poll__submit");
+
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();      
+      message.classList.remove("d-none");     
+      submitBtn.disabled = true;     
+      form.reset();      
+      setTimeout(() => {
+        message.classList.add("d-none");
+        submitBtn.disabled = false;
+      }, 3000);
+    });
+  });
+</script>
+
+</body>
+
+</html>

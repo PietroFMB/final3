@@ -1,0 +1,15 @@
+@use './abstracts/mixins';
+@use './abstracts/variables';
+@use './components/cards';
+@use './components/carrousel';
+@use './layout/footer';
+@use './layout/header';
+@use './components/poll';
+@use './components/equipo';
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
